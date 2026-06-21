@@ -104,11 +104,10 @@ jobs:
             echo "Archiving previous edition '$PREV_SLUG' → archive/$PREV_SLUG/"
             mkdir -p "$GHP/archive/$PREV_SLUG"
             # Move everything at root EXCEPT the .git dir and the archive folder itself.
-            shopt -s extglob dotglob nullglob
-            for item in "$GHP"/!(.git|archive); do
-              mv "$item" "$GHP/archive/$PREV_SLUG/"
-            done
-            shopt -u extglob dotglob nullglob
+            find "$GHP" -mindepth 1 -maxdepth 1 \
+              ! -name '.git' \
+              ! -name 'archive' \
+              -exec mv {} "$GHP/archive/$PREV_SLUG/" \;
           else
             echo "No existing edition at root — this will be the first edition published here."
           fi
