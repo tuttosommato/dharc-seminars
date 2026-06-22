@@ -135,7 +135,6 @@ days[]              → date (e.g. "05.11.26") + sessions[]
     slots[]         → time, type, title, (speaker)
 ```
 
-- A day with **2 sessions** renders as two columns; a day with **1 session** is full-width.
 - `type` is one of:
   - `"talk"` — `speaker` (regular) + `title` (italic)
   - `"keynote"` — same fields, shown with an accent left-border + “Keynote” marker
