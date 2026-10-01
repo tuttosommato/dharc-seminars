@@ -48,13 +48,13 @@ export default function Hero() {
 
           {/* Registration CTA — free admission. Replace href with the registration URL. */}
           <div className="mt-8 flex items-center gap-4">
-            <a
+            {/* <a
               href="#"
               className="inline-block rounded-lg border-[2px] border-accent bg-[var(--color-bg)] pl-7 pr-6 py-3 font-body text-lg font-medium text-accent transition-colors hover:bg-accent hover:text-[var(--color-bg)]"
             >
               {'Register to attend →'}
-            </a>
-            <span className="font-body text-sm text-text-muted">Free admission</span>
+            </a> */}
+            <span className="font-body text-sm text-text-muted">Free admission. Registration required (coming soon...)</span>
           </div>
         </div>
       </div>
