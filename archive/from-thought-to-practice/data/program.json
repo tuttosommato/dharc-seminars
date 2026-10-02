@@ -27,7 +27,7 @@
               "time": "10:30 - 11:10",
               "type": "keynote",
               "speaker": "Dr. Enrico Daga",
-              "title": "Coming soon"
+              "title": "Contribution title"
             },
             {
               "id": "sl-1-4",
@@ -40,14 +40,14 @@
               "time": "11:30 - 12:10",
               "type": "keynote",
               "speaker": "Dr. Eva Cetinić",
-              "title": "Coming soon"
+              "title": "Contribution title"
             },
             {
               "id": "sl-1-6",
               "time": "12:10 - 12:50",
               "type": "keynote",
               "speaker": "Dr. Lise Stork",
-              "title": "Coming soon"
+              "title": "Contribution title"
             },
             {
               "id": "sl-1-7",
@@ -79,15 +79,15 @@
               "id": "sl-2-2",
               "time": "14:40 - 15:20",
               "type": "keynote",
-              "speaker": "Tiago Filipe Nunes Ribeiro (CDCH)",
-              "title": "Coming soon"
+              "speaker": "Copenhagen speaker 1 · /DH.arc PhD 1",
+              "title": "Use-case presentations & critical feedback"
             },
             {
               "id": "sl-2-3",
               "time": "15:20 - 16:00",
               "type": "keynote",
-              "speaker": "Selda Eren (CDCH)",
-              "title": "Coming soon"
+              "speaker": "Copenhagen speaker 2 · /DH.arc PhD 2",
+              "title": "Use-case presentations & critical feedback"
             },
             {
               "id": "sl-2-4",
@@ -99,8 +99,8 @@
               "id": "sl-2-5",
               "time": "16:20 - 17:00",
               "type": "keynote",
-              "speaker": "Yevhenii Osadchuk (CDCH)",
-              "title": "Coming soon"
+              "speaker": "Copenhagen speaker 3 · /DH.arc PhD 3",
+              "title": "Use-case presentations & critical feedback"
             },
             {
               "id": "sl-2-6",
